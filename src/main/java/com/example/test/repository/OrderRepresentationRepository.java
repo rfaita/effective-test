@@ -6,5 +6,5 @@ public interface OrderRepresentationRepository {
 
     OrderRepresentation save(OrderRepresentation orderRepresentation);
 
-
+    OrderRepresentation findByClientName(String clientName);
 }
